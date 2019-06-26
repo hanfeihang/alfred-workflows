@@ -1,6 +1,6 @@
 # alfred-workflows
 
-一些实用的alfred工作流g
+一些实用的alfred工作流
 
 # List
 
