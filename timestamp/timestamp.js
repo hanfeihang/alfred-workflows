@@ -1,8 +1,3 @@
-let param = process.argv[2];
-if (process.argv[3] != null) {
-  param = param + ' ' + process.argv[3];
-}
-
 function timetrans(dateLong) {
   var date = new Date(parseInt(dateLong));
   var Y = date.getFullYear() + '-';
@@ -15,28 +10,41 @@ function timetrans(dateLong) {
 }
 
 ; (async function () {
-  let ret = null;
-  let type = null;
-  if (isNaN(param)) {
-    // 字符
-    ret = new Date(param).getTime();
-    type = '时间戳';
-  } else {
-    // 数字
-    ret = timetrans(param);
-    type = '时间';
+  let result = [];
+  if (process.argv.length >= 3) {
+    let param = process.argv[2];
+    if (process.argv[3] != null) {
+      param = param + ' ' + process.argv[3];
+    }
+    let ret = null;
+    let type = null;
+    if (isNaN(param)) {
+      // 字符
+      ret = new Date(param).getTime();
+      type = param;
+    } else {
+      // 数字
+      ret = timetrans(param);
+      type = param;
+    }
+    result.push({
+      title: ret,
+      subtitle: type,
+      arg: ret,
+    });
   }
 
-  let result = [];
+  let nowTimestamp = new Date().getTime();
+  let nowTimeStr = timetrans(nowTimestamp);
   result.push({
-    title: ret,
-    subtitle: type,
-    arg: ret,
+    title: nowTimestamp,
+    subtitle: `当前时间戳`,
+    arg: nowTimestamp,
   });
   result.push({
-    title: new Date().getTime(),
+    title: nowTimeStr,
     subtitle: `当前时间`,
-    arg: ret,
+    arg: nowTimeStr,
   });
   console.log(JSON.stringify({
     items: result
