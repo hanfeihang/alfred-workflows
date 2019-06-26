@@ -1,13 +1,17 @@
 # alfred-workflows
-useful alfred workflows
+
+一些实用的alfred工作流g
 
 # List
 
-- Timestamp transfer
-
-you can transfer time like below: 
-- from 2019-06-26 12:00:00 to 1561521600000
-- from 1561521600000       to 2019-06-26 12:00:00
-- get now timestamp
-
-[Download](http://www.google.com/)
+- 时间戳/时间转换
+    - 介绍
+```
+你可以使用指令 tt
+timestamp to date : 2019-06-26 12:00:00 -> 1561521600000
+date to timestamp : 1561521600000 -> 2019-06-26 12:00:00
+get now timestamp : 1561521600000
+get now timestamp : 2019-06-26 12:00:00
+```
+   - 下载链接
+   [Download](https://github.com/hanfeihang/alfred-workflows/raw/master/timestamp/timestamp.alfredworkflow)
