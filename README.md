@@ -20,16 +20,3 @@ Some useful alfred workflows
         NodeJs
     
     - [Download](https://github.com/hanfeihang/alfred-workflows/raw/master/timestamp/timestamp.alfredworkflow)
-
-- Aone Page
-    
-    - Usage
-            
-        - use alfred keyword `aone`, and choose the App to open develop page
-        - you can customize your app list in script. search `APP_ARRAY` and add your app into it.
-        
-    - Dependency
-            
-        None
-        
-    - [Download](https://github.com/hanfeihang/alfred-workflows/raw/master/aone/aone.alfredworkflow)
