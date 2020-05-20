@@ -20,3 +20,15 @@ Some useful alfred workflows
         NodeJs
     
     - [Download](https://github.com/hanfeihang/alfred-workflows/raw/master/timestamp/timestamp.alfredworkflow)
+    
+- IP Tools
+    
+    - Usage
+        
+        use alfred keyword `ip`
+      
+    - Dependency
+        
+        Python2.7
+    
+    - [Download](https://github.com/hanfeihang/alfred-workflows/raw/master/ip/ip.alfredworkflow)
