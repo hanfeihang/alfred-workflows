@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2f78b39-d2e9-4d47-964b-aa3df2b06c99" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ip/ip.alfredworkflow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ip/ip_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/alfred-workflows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alfred-workflows.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aone/50B0CD10-4D52-4898-9C05-DD3A34A829C3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aone/aone.alfredworkflow" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aone/info.plist" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
