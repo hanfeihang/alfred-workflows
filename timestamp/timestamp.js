@@ -1,4 +1,4 @@
-function timetrans(dateLong) {
+function time_trans(dateLong) {
   var date = new Date(parseInt(dateLong));
   var Y = date.getFullYear() + '-';
   var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
@@ -24,7 +24,7 @@ function timetrans(dateLong) {
       type = param;
     } else {
       // 数字
-      ret = timetrans(param);
+      ret = time_trans(param);
       type = param;
     }
     result.push({
@@ -35,7 +35,7 @@ function timetrans(dateLong) {
   }
 
   let nowTimestamp = new Date().getTime();
-  let nowTimeStr = timetrans(nowTimestamp);
+  let nowTimeStr = time_trans(nowTimestamp);
   result.push({
     title: nowTimestamp,
     subtitle: `当前时间戳`,
