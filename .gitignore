@@ -17,4 +17,3 @@ target/
 **/hsf/**
 *.pom.xml.swp
 /temp/
-.idea/
